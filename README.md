@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Uma aplicação idealizada para a zona rural, especificamente para os agricultores, que além de todas as dificuldades, precisam combater também as pragas e ataques naturais em suas plantações. O projeto será desenvolvido em torno de criar uma base de dados com as principais pragas que afetam as lavouras, como indentificá-las, tratá-las, ou até mesmo se precaverem das mesmas. Os usuários também terão o benefício de enviarem suas dúvidas até um time de especialistas, por meio da própria aplicação, para enfim ter todo tipo de suporte e ajuda necessária para combater esse mal que é tão presente na vida dos trabalhadores dos campos.
 
 ## Integrantes
 
