@@ -1,89 +1,83 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Nome: Murilo Kuster Pereira
+<br>
+Idade: 58
+<br>
+Trabalho: Pequeno Fazendeiro
+<br>
+Estado civil: Casado
+<br>
+Necessidade: Murilo está com um problema de pragas na sua plantação de laranjas e precisa mitigar esse problema. Ele não possui expertise necessária nesse assunto e não possui dinheiro para contratar um profissional especializado.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Nome: Telma de Jesus Tolentino
+<br>
+Idade: 23
+<br>
+Trabalho: Estudante
+<br>
+Estado civil: Solteira
+<br>
+Necessidade: Telma está estudando Agronomia na PUCPR e precisa pesquisar de forma rápida sobre diferentes pragas e seus efeitos em plantações.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Nome: Claudia Ferreira Passos
+<br>
+Idade: 25 anos
+<br>
+Ocupação: Publicitária
+<br>
+Estado Civil: Solteira
+<br>
+Necessidade: Claudia tem uma pequena horta na sua varanda e tem medo de que alguns insetos se interessem e prejudiquem sua plantação. Ela não tem conhecimento algum sobre controle de pragas e possui uma plantação muito pequena para contratar alguém especializado.
 
-## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
-### Requisitos Funcionais
-
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-|------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
-
+## Requesito funcionais
+Mostrar uma gama de plantações em um menu e, ao clickar em uma delas, mostrar suas possíveis pragas em uma interface gráfica. PRIORIDADE: MÉDIA
+<br><br>
+Desenvolver uma interface para os detalhes e métodos de detecção e prevenção de cada praga. PRIORIDADE: ALTA 
+<br><br>
+Possibilidade de se comunicar com um profissional da área via e-mail ou chat.  PRIORIDADE: ALTA
+<br><br>
+Mostrar produtos recomendados para lidar com cada tipo de praga e seus respectivos preços. PRIORIDADE: MÉDIA
+<br><br>
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
+|ID     | Descrição do Requisito  |
+|-------|-------------------------|
+|RNF-001| Interface Gráfica |
+|RNF-002| Documentação do Projeto objetiva |
+|RNF-003| Deve prover Confiabilidade|
+|RNF-004| Disponibilidade de  24 horas sete dias por Semana |
+|RNF-005| A plataforma deve ser Web|
+|RNF-006| Tratamento de mensagem de Erro | 
+|RNF-007| Tempo de Desenvolvimento do Projeto |
+|RNF-008| Tratamento de Exceções |
+|RNF-009| Linguagem Utilizada de Banco de Dados | 
+|RNF-0010| Linguagem de Programação Utilizada | 
+|RNF-0011| Segurança | MÉDIA | 
+|RNF-0012| Processar requisições do usuário em no máximo 4s |
+|RNF-0013| Perfomance de Resposta de Tempo | ALTA |
+|RNF-0014| Perfomance de Capacidade de Armazenamento | 
+|RNF-0016| Poderá ser identificado mais ao longo do Desenvolvimento do Projeto | 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+ O projeto contemplará as seguintes **restrições** de acordos com cada itens que segue apresentados na vizualização abaixo.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID| Restrição                                                                                                              |
+|--|------------------------------------------------------------------------------------------------------------------------|
+|01| Os prazos referentes ao cronograma de entrega do projeto, ou seja, quanto tempo vai levar para que o projeto seja entregue.|
+|02| Os prazos de cada fase e entrega final, ao qual deverá acontecer prevista no cronograma de atividade do curso.         |
+|03| Garantir os objetivos, entregas e tarefas bem específicas, ou seja, tudo que está aprovado e listado para ser entregue ao final do projeto.|
+|04| O projeto não tem orçamento previsto no instante inicial                                                               |
+|05| O projeto deverá ser executado exclusivamente por todos os membros do grupo.                                           |
+|06| No projeto deverá ser entregue em no máximo até o fim do período do semestre.                                          |
+|07| Em situação que algum integrante saia do projeto durante o seu desenvolvimento, deve-se imediatamente procurar outro para substituir, caso não seja possível repor o membro as tarefas de desenvolvimento do mesmo serão distribuídas entre todos do projeto para garantir que o projeto seja concluído e entregue no prazo estipulado.|  
+|08| Poderá ser adicionada mais Restrições ao longo do Desenvolvimento do Projeto.    
 
+## Histórias de Usuários
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+EU, COMO dono de uma plantação específica, sendo grande ou pequena, QUERO uma tela para visualizar suas possíveis pragas PARA QUE eu possa prevenir ou minimizar esse problema e crescer minha plantação de forma saudável.
