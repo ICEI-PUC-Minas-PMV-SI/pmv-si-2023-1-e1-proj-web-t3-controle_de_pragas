@@ -34,8 +34,8 @@ Necessidade: Claudia tem uma pequena horta na sua varanda e tem medo de que algu
 
 
 
-## Requesito funcionais
-Mostrar uma gama de plantações em um menu e, ao clickar em uma delas, mostrar suas possíveis pragas em uma interface gráfica. PRIORIDADE: MÉDIA
+## Requesitos funcionais
+Mostrar uma gama de plantações em um menu e, ao clicar em uma delas, mostrar suas possíveis pragas em uma interface gráfica. PRIORIDADE: MÉDIA
 <br><br>
 Desenvolver uma interface para os detalhes e métodos de detecção e prevenção de cada praga. PRIORIDADE: ALTA 
 <br><br>
