@@ -12,9 +12,6 @@ Uma aplicação idealizada para a zona rural, especificamente para os agricultor
 
 * Carlos Alberto Morais Junior
 * Lucas de Laceda Moreira Passos
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
 
 ## Orientador
 
