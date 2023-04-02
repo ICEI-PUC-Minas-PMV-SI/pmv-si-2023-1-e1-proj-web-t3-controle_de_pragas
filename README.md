@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Carlos Alberto Morais Junior
-* Lucas de Laceda Moreira Passos
+* Lucas de Lacerda Moreira Passos
 
 ## Orientador
 
