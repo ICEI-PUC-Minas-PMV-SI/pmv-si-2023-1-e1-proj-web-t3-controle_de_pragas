@@ -11,7 +11,7 @@ Uma aplicação idealizada para a zona rural, especificamente para os agricultor
 ## Integrantes
 
 * Carlos Alberto Morais Junior
-* Lucas de Laceda Moreira Passos
+* Lucas de Lacerda Moreira Passos
 
 ## Orientador
 
