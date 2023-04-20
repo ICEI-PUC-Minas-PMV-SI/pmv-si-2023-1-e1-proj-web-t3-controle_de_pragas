@@ -6,27 +6,23 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/112730419/233230915-02008af1-e67c-4255-be9d-0b2e42cff238.png" width="650px" />
-</div>
-
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
-
+<div align="center">
+<img src="https://user-images.githubusercontent.com/112730419/233231693-968138e2-7884-433b-8625-f1dd1f0136b4.png" width="650px" />
+</div>
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
-
+<div align="center">
+<img src="https://user-images.githubusercontent.com/112730419/233231859-0cac5bc6-8438-443d-9158-f30427b9ddae.png" width="650px" />
+</div>
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
-
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
-
+<div align="center">
+<img src="https://user-images.githubusercontent.com/112730419/233230915-02008af1-e67c-4255-be9d-0b2e42cff238.png" width="650px" />
+</div>
 
 > **Links Úteis**:
 >
