@@ -6,8 +6,11 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+![iconografia](https://user-images.githubusercontent.com/112730419/233230915-02008af1-e67c-4255-be9d-0b2e42cff238.png)
 
+<div align="center">
+<img src="https://desblogada.files.wordpress.com/2021/05/kaka-cordovil-java-developer-2.gif" width="500px" />
+</div>
 
 ## Cores
 
