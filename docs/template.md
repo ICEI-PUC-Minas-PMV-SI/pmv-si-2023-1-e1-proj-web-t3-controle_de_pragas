@@ -6,10 +6,8 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
-![iconografia](https://user-images.githubusercontent.com/112730419/233230915-02008af1-e67c-4255-be9d-0b2e42cff238.png)
-
 <div align="center">
-<img src="https://desblogada.files.wordpress.com/2021/05/kaka-cordovil-java-developer-2.gif" width="500px" />
+<img src="https://user-images.githubusercontent.com/112730419/233230915-02008af1-e67c-4255-be9d-0b2e42cff238.png" width="500px" />
 </div>
 
 ## Cores
