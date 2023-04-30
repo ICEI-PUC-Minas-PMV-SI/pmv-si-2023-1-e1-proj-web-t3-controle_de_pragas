@@ -35,48 +35,39 @@ Necessidade: Claudia tem uma pequena horta na sua varanda e tem medo de que algu
 
 
 ## Requesitos funcionais
-Mostrar uma gama de plantações em um menu e, ao clicar em uma delas, mostrar suas possíveis pragas em uma interface gráfica. PRIORIDADE: MÉDIA
-<br><br>
-Desenvolver uma interface para os detalhes e métodos de detecção e prevenção de cada praga. PRIORIDADE: ALTA 
-<br><br>
-Possibilidade de se comunicar com um profissional da área via e-mail ou chat.  PRIORIDADE: ALTA
-<br><br>
-Mostrar produtos recomendados para lidar com cada tipo de praga e seus respectivos preços. PRIORIDADE: MÉDIA
-<br><br>
+|ID       | Descrição do Requisito  | Prioridade |
+|---------|-------------------------|------------|
+|RF-001| A aplicação deve mostrar a página principal sem cadastro prévio do usuário. | ALTA |
+|RF-002| A aplicação deve mostrar um menu na página principal com as plantações para que o usuário escolha qual detalhar. | ALTA |
+|RF-003| A aplicação deve detalhar a plantação escolhida pelo usuário, mostrando uma foto da planta, seu nome científico e as cinco pragas mais famosas por atacá-la. | ALTA
+|RF-004| A aplicação deve mostrar uma nova página caso o usuário escolha detalhar uma praga. Essa página deve conter como ela ataca as plantas, como prever sua instalação nas plantações e como exterminá-las. | ALTA
+|RF-005| A aplicação deve mostrar uma lista de produtos recomendados para prevenção e extermínio dessas pragas. | ALTA
+|RF-006| A aplicação deve prover um formulário para que o usuário envie um e-mail ao especialista. | ALTA
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |
-|-------|-------------------------|
-|RNF-001| Interface Gráfica |
-|RNF-002| Documentação do Projeto objetiva |
-|RNF-003| Deve prover Confiabilidade|
-|RNF-004| Disponibilidade de  24 horas sete dias por Semana |
-|RNF-005| A plataforma deve ser Web|
-|RNF-006| Tratamento de mensagem de Erro | 
-|RNF-007| Tempo de Desenvolvimento do Projeto |
-|RNF-008| Tratamento de Exceções |
-|RNF-009| Linguagem Utilizada de Banco de Dados | 
-|RNF-0010| Linguagem de Programação Utilizada | 
-|RNF-0011| Segurança | MÉDIA | 
-|RNF-0012| Processar requisições do usuário em no máximo 4s |
-|RNF-0013| Perfomance de Resposta de Tempo | ALTA |
-|RNF-0014| Perfomance de Capacidade de Armazenamento | 
-|RNF-0016| Poderá ser identificado mais ao longo do Desenvolvimento do Projeto | 
+|ID     | Descrição do Requisito  | Prioridade |
+|-------|-------------------------|------------|
+|RNF-001| A aplicação deve ser totalmente responsiva para *desktops*, *tablets* e celulares | ALTA |
+|RNF-002| A aplicação deve usar HTML5, CSS3 e JavaScript como *stack* principal | ALTA |
+|RNF-003| A aplicação deve utilizar TailwindCSS e DaisyUI para estilização | MÉDIA |
+|RNF-004| A aplicação deve enviar um e-mail de confirmação para o usuário caso ele envie alguma dúvida à um especialista via formulário | ALTA |
+|RNF-005| A aplicação deve usar uma API de comparação de preços para mostrar o preço médio de produtos para exterminar pragas | MÉDIA |
+|RNF-006| A aplicação deve prover todas as informações disponíveis ao usuário sem necessidade de cadastro | ALTA |
 ## Restrições
 
  O projeto contemplará as seguintes **restrições** de acordos com cada itens que segue apresentados na vizualização abaixo.
 
-|ID| Restrição                                                                                                              |
-|--|------------------------------------------------------------------------------------------------------------------------|
-|01| Os prazos referentes ao cronograma de entrega do projeto, ou seja, quanto tempo vai levar para que o projeto seja entregue.|
-|02| Os prazos de cada fase e entrega final, ao qual deverá acontecer prevista no cronograma de atividade do curso.         |
-|03| Garantir os objetivos, entregas e tarefas bem específicas, ou seja, tudo que está aprovado e listado para ser entregue ao final do projeto.|
-|04| O projeto não tem orçamento previsto no instante inicial                                                               |
-|05| O projeto deverá ser executado exclusivamente por todos os membros do grupo.                                           |
-|06| No projeto deverá ser entregue em no máximo até o fim do período do semestre.                                          |
-|07| Em situação que algum integrante saia do projeto durante o seu desenvolvimento, deve-se imediatamente procurar outro para substituir, caso não seja possível repor o membro as tarefas de desenvolvimento do mesmo serão distribuídas entre todos do projeto para garantir que o projeto seja concluído e entregue no prazo estipulado.|  
-|08| Poderá ser adicionada mais Restrições ao longo do Desenvolvimento do Projeto.    
+| ID | Restrição |
+|----|-----------|
+|01| A aplicação não pode substituir a análise de um profissional especializado.|
+|02| A aplicação não pode conter conteúdo ilítico e nem promover qualquer ato ilícito.|
+|03| As fontes usadas para o conteúdo da aplicação devem ser confiáveis e disponíveis para os usuários.|
+|04| A aplicação não deve aceitar nenhum tipo de pagamento.|
+|05| Todos os integrantes do grupo devem fazer parte do projeto. O trabalho para cada integrante do grupo será dividido igualmente e acordado entre o grupo.|
+|06| O projeto deve ser finalizado até o dia 12 de Julho.|
+|07| A aplicação deve estar disponível vinte e quatro horas por dia. Tratando como exceção pausas para manutenção e mudanças na aplicação.|  
+|08| Nenhum módulo Back-end e nenhum banco de dados pode ser utilizado no projeto.|   
 
 ## Histórias de Usuários
 
