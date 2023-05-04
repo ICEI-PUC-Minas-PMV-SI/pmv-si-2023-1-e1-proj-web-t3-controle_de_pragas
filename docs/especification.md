@@ -39,10 +39,13 @@ Necessidade: Claudia tem uma pequena horta na sua varanda e tem medo de que algu
 |---------|-------------------------|------------|
 |RF-001| A aplicação deve mostrar a página principal sem cadastro prévio do usuário. | ALTA |
 |RF-002| A aplicação deve mostrar um menu na página principal com as plantações para que o usuário escolha qual detalhar. | ALTA |
-|RF-003| A aplicação deve detalhar a plantação escolhida pelo usuário, mostrando uma foto da planta, seu nome científico e as cinco pragas mais famosas por atacá-la. | ALTA
-|RF-004| A aplicação deve mostrar uma nova página caso o usuário escolha detalhar uma praga. Essa página deve conter como ela ataca as plantas, como prever sua instalação nas plantações e como exterminá-las. | ALTA
-|RF-005| A aplicação deve mostrar uma lista de produtos recomendados para prevenção e extermínio dessas pragas. | ALTA
-|RF-006| A aplicação deve prover um formulário para que o usuário envie um e-mail ao especialista. | ALTA
+|RF-003| A aplicação deve detalhar a plantação de café, mostrando uma foto da planta, seu nome científico e as cinco pragas mais famosas por atacá-la. | ALTA
+|RF-004| A aplicação deve detalhar a plantação de milho, mostrando uma foto da planta, seu nome científico e as cinco pragas mais famosas por atacá-la. | ALTA
+|RF-005| A aplicação deve detalhar a plantação de trigo, mostrando uma foto da planta, seu nome científico e as cinco pragas mais famosas por atacá-la. | ALTA
+|RF-006| A aplicação deve detalhar a plantação de algodão, mostrando uma foto da planta, seu nome científico e as cinco pragas mais famosas por atacá-la. | ALTA
+|RF-007| A aplicação deve mostrar uma nova página caso o usuário escolha detalhar uma praga. Essa página deve conter como ela ataca as plantas, como prever sua instalação nas plantações e como exterminá-las. | ALTA
+|RF-008| A aplicação deve mostrar uma lista de produtos recomendados para prevenção e extermínio dessas pragas. | ALTA
+|RF-009| A aplicação deve prover um formulário para que o usuário envie um e-mail ao especialista. | ALTA
 
 ### Requisitos não Funcionais
 
@@ -50,9 +53,9 @@ Necessidade: Claudia tem uma pequena horta na sua varanda e tem medo de que algu
 |-------|-------------------------|------------|
 |RNF-001| A aplicação deve ser totalmente responsiva para *desktops*, *tablets* e celulares | ALTA |
 |RNF-002| A aplicação deve usar HTML5, CSS3 e JavaScript como *stack* principal | ALTA |
-|RNF-003| A aplicação deve utilizar TailwindCSS e DaisyUI para estilização | MÉDIA |
+|RNF-003| A aplicação deve seguir o guia de cores e a escala de texto impostos no template padrão | MÉDIA |
 |RNF-004| A aplicação deve enviar um e-mail de confirmação para o usuário caso ele envie alguma dúvida à um especialista via formulário | ALTA |
-|RNF-005| A aplicação deve usar uma API de comparação de preços para mostrar o preço médio de produtos para exterminar pragas | MÉDIA |
+|RNF-005| A aplicação deve usar uma API para enviar o email do usuário para o especialista via formulário | MÉDIA |
 |RNF-006| A aplicação deve prover todas as informações disponíveis ao usuário sem necessidade de cadastro | ALTA |
 ## Restrições
 
