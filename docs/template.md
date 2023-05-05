@@ -56,3 +56,8 @@ Os ícones selecionados fazem parte da biblioteca [Material Icons](https://fonts
 A logo foi criada pensando no amor entre uma plantação em seu dono, sendo de uma pequena horta à uma fazenda de médio porte. A logo é composta por uma folha, representando as plantações de forma ampla, e um coração que representa o amor citado anteriormente.
 
 ![Logomarca](https://user-images.githubusercontent.com/105527392/235378481-3563f53b-281e-4452-9c51-c09dd4cb8edf.png)
+
+## **Template Padrão**
+Escolhemos usar o menu principal para fazer o template padrão. É possível ver o template clickando no link abaixo.
+
+[Template Padrão do Site](https://plantcare-vercel-avqa320lv-plantcare.vercel.app/)
