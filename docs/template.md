@@ -61,3 +61,5 @@ A logo foi criada pensando no amor entre uma plantação em seu dono, sendo de u
 Escolhemos usar o menu principal para fazer o template padrão. É possível ver o template clickando no link abaixo.
 
 [Template Padrão do Site](https://plantcare-vercel-avqa320lv-plantcare.vercel.app/)
+
+*O site está sendo publicado usando a ferramenta de projetos da Vercel e será atualizado a cada commit feito no projeto.*
