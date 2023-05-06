@@ -3,6 +3,9 @@
 
 ## **User Flow**
 Userflow desenvolvido no Whimisical, seguindo as vertentes dos Wireframes, disponíveis na próxima seção e com base nos requisitos elaborados na etapa 1 do projeto.
+
+https://whimsical.com/userflow-FNEM1t8uPBGwuRszQG6ah7
+
 ![userflow2](https://user-images.githubusercontent.com/112730419/236588171-0d48275e-e2da-4347-bb7c-f8ae7bb44089.png)
 
 ## **Wireframes**
