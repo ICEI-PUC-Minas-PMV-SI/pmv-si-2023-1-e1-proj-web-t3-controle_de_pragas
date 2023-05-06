@@ -40,12 +40,12 @@ Necessidade: Claudia tem uma pequena horta na sua varanda e tem medo de que algu
 |RF-001| A aplicação deve mostrar a página principal sem cadastro prévio do usuário. | ALTA |
 |RF-002| A aplicação deve mostrar um menu na página principal com as plantações para que o usuário escolha qual detalhar. | ALTA |
 |RF-003| A aplicação deve detalhar a plantação de café, mostrando uma foto da planta, seu nome científico e as cinco pragas mais famosas por atacá-la. | ALTA
-|RF-004| A aplicação deve detalhar a plantação de milho, mostrando uma foto da planta, seu nome científico e as cinco pragas mais famosas por atacá-la. | ALTA
-|RF-005| A aplicação deve detalhar a plantação de trigo, mostrando uma foto da planta, seu nome científico e as cinco pragas mais famosas por atacá-la. | ALTA
-|RF-006| A aplicação deve detalhar a plantação de algodão, mostrando uma foto da planta, seu nome científico e as cinco pragas mais famosas por atacá-la. | ALTA
-|RF-007| A aplicação deve mostrar uma nova página caso o usuário escolha detalhar uma praga. Essa página deve conter como ela ataca as plantas, como prever sua instalação nas plantações e como exterminá-las. | ALTA
-|RF-008| A aplicação deve mostrar uma lista de produtos recomendados para prevenção e extermínio dessas pragas. | ALTA
-|RF-009| A aplicação deve prover um formulário para que o usuário envie um e-mail ao especialista. | ALTA
+|RF-004| A aplicação deve detalhar a plantação de trigo, mostrando uma foto da planta, seu nome científico e as cinco pragas mais famosas por atacá-la. | ALTA
+|RF-005| A aplicação deve mostrar uma nova página caso o usuário escolha detalhar uma praga. Essa página deve conter como ela ataca as plantas, como prever sua instalação nas plantações e como exterminá-las. | ALTA
+|RF-006| A aplicação deve mostrar uma lista de produtos recomendados para prevenção e extermínio dessas pragas. | ALTA
+|RF-007| A aplicação deve prover um formulário para que o usuário envie um e-mail ao especialista. | ALTA
+|RF-008| A aplicação deve prover um formulário para que o usuário envie um e-mail aos desenvolvedores da aplicação | ALTA
+|RF-009| A aplicação deve mostrar uma página sobre o grupo responsável pela realização do projeto | ALTA
 
 ### Requisitos não Funcionais
 
