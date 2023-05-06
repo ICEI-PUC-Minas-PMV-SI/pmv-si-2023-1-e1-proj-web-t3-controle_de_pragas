@@ -3,7 +3,7 @@
 
 ## User Flow
 
-![userflow](https://user-images.githubusercontent.com/112730419/235558095-3f49fe3f-3e2b-49fc-9773-2d8c9884963c.png)
+![userflow2](https://user-images.githubusercontent.com/112730419/236588171-0d48275e-e2da-4347-bb7c-f8ae7bb44089.png)
 
 ## Wireframes
 
