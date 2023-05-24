@@ -95,6 +95,9 @@
     font-size: 14px;
   }
 
+  a {
+    text-decoration: none;
+  }
 
 /* Tema de componentes */
 
