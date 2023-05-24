@@ -205,6 +205,58 @@ body {
   display: none;
 }
 
+.token--menu--group {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.token--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+
+.token--img {
+  height: 150px;
+  width: 150px;
+  border-radius: 999px;
+  border: solid 5px var(--grass9);
+  position: absolute;
+  z-index: 0;
+}
+
+.token--label {
+  height: 25px;
+}
+
+.token--label--bg {
+  background-color: var(--grass9);
+  height: 35px;
+  width: 35px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  margin-top: 120px;
+  margin-left: 120px;
+}
+
+.token--rotulo--wrapper {
+  width: 160px;
+}
+
+.token--rotulo {
+  margin-top: 170px;
+  color: var(--grass12);
+  text-align: center;
+}
+
 @media only screen and (max-width: 750px) {
   .nav {
     display: none;
