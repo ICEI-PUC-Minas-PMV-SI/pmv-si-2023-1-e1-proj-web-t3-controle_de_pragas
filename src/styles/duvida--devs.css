@@ -24,10 +24,27 @@
   border-radius: 5px;
 }
 
+.col2--input {
+  height: 220px;
+  width: 750px;
+  background-color: var(--grass2);
+  border: solid 1px var(--grass7);
+  border-radius: 5px;
+
+}
+
+
+
 @media only screen and (max-width: 750px) {
 
   .form--col1 {
     flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col2--input {
     width: 100%;
   }
 }
