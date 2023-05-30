@@ -1,0 +1,33 @@
+@import "./themes.css";
+
+.form--col1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.col1--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+.col1--label {
+  color: var(--grass12);
+}
+
+.col1--input {
+  width: 220px;
+  height: 40px;
+  background-color: var(--grass2);
+  border: solid 1px var(--grass7);
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 750px) {
+
+  .form--col1 {
+    flex-direction: column;
+    width: 100%;
+  }
+}
