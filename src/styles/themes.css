@@ -66,6 +66,10 @@
 }
 
 /* Tema de Textos */
+  * {
+    font-family: 'Roboto', sans-serif;
+  }
+
   .t-pag {
     font-weight: 900;
     font-family: 'Roboto Slab', serif;
