@@ -1,0 +1,13 @@
+@import "./themes.css";
+
+.menu--subtitulo {
+  text-align: center
+}
+
+.menu--btn-1 {
+  background-image: url("../assets/images/código.png");
+}
+
+.menu--btn-2 {
+  background-image: url("../assets/images/cientista.jpg");
+}
