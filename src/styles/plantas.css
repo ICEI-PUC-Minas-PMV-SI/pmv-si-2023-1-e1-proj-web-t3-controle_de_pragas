@@ -93,3 +93,17 @@
   border-radius: 9999px;
   border: solid 5px var(--grass9);
 }
+
+@media only screen and (max-width: 750px){ 
+  .plantas {
+    flex-direction: column-reverse;
+  }
+
+  .plantas--par {
+    max-width: 100%;
+  }
+
+  .plantas--pragas--wrapper, .plantas--foto {
+    width: 100%;
+  }
+}
