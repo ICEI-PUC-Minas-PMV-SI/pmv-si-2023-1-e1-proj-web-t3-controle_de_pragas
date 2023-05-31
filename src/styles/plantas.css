@@ -1,0 +1,95 @@
+@import "./themes.css";
+
+.plantas {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.plantas--par {
+  max-width: 30%;
+  text-align: justify;
+}
+
+.pragas--tit {
+  color: var(--grass12);
+}
+
+.token--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+
+.token--img {
+  height: 75px;
+  width: 75px;
+  border-radius: 999px;
+  border: solid 5px var(--grass9);
+  position: absolute;
+  z-index: 0;
+}
+
+.token--label {
+  height: 15px;
+}
+
+.token--label--bg {
+  background-color: var(--grass9);
+  height: 25px;
+  width: 25px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.token--rotulo--wrapper {
+  width: 85px;
+  max-width: 85px;
+}
+
+.token--rotulo {
+  margin-top: 95px;
+  color: var(--grass12);
+  text-align: center;
+  max-width: 170px;
+}
+
+.plantas--pragas--wrapper {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pragas--lista {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.plantas--foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 50vh;
+}
+
+.foto {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 9999px;
+  border: solid 5px var(--grass9);
+}

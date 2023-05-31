@@ -235,6 +235,7 @@ body {
   border: solid 5px var(--grass9);
   position: absolute;
   z-index: 0;
+  margin-bottom: 20px;
 }
 
 .token--label {
@@ -264,7 +265,7 @@ body {
   margin-top: 170px;
   color: var(--grass12);
   text-align: center;
-  max-width: 160px;
+  max-width: 170px;
 }
 
 @media only screen and (max-width: 750px) {
