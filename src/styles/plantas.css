@@ -94,9 +94,16 @@
   border: solid 5px var(--grass9);
 }
 
-@media only screen and (max-width: 750px){ 
+@media only screen and (max-width: 750px){
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+
   .plantas {
     flex-direction: column-reverse;
+    gap: 70px;
   }
 
   .plantas--par {
