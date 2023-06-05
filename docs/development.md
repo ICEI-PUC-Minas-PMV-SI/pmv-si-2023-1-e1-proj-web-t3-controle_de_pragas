@@ -1,42 +1,28 @@
-# Programação de Funcionalidades
-
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
-
-Para cada requisito funcional, pode ser entregue um artefato desse tipo.
-
-O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utilizados como referência:
-- Login do sistema: [https://repl.it/@rommelpuc/LoginApp](https://repl.it/@rommelpuc/LoginApp) 
-- Cadastro de Contatos: [https://repl.it/@rommelpuc/Cadastro-de-Contatos](https://repl.it/@rommelpuc/Cadastro-de-Contatos)
-
-
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
-
-## Exemplo
-
+# Programação de Funcionalidades - PlantCare
 ## Requisitos Atendidos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais que relacionam o escopo do projeto com os artefatos criados:
 
-### Requisitos Funcionais
-
-|ID    | Descrição do Requisito | Prioridade | Artefato Criado |
-|------|------------------------|------------|-----------------|
-|RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
-|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
+## Requisitos funcionais
+|ID       | Descrição do Requisito  | Prioridade | Responsável | Artefato Criado | 
+|---------|-------------------------|------------|-------------|-----------------|
+|RF-001| A aplicação deve mostrar a página principal sem cadastro prévio do usuário. | ALTA | Carlos | index.html
+|RF-002| A aplicação deve mostrar um menu na página principal com as plantações para que o usuário escolha qual detalhar. | ALTA | Carlos | menu_plantas.html
+|RF-003| A aplicação deve detalhar a plantação de café, mostrando uma foto da planta, seu nome científico e as cinco pragas mais famosas por atacá-la. | ALTA | Lucas | plantas-café.html
+|RF-004| A aplicação deve detalhar a plantação de trigo, mostrando uma foto da planta, seu nome científico e as cinco pragas mais famosas por atacá-la. | ALTA | Lucas | plantas-trigo.html
+|RF-005| A aplicação deve mostrar uma nova página caso o usuário escolha detalhar uma praga. Essa página deve conter como ela ataca as plantas, como prever sua instalação nas plantações e como exterminá-las. | ALTA | Carlos e Lucas | menu_pragas.html
+|RF-006| A aplicação deve prover um formulário para que o usuário envie um e-mail ao especialista. | ALTA | Carlos | duvida_especs.html
+|RF-008| A aplicação deve prover um formulário para que o usuário envie um e-mail aos desenvolvedores da aplicação | ALTA | Carlos | duvida_devs.html
+|RF-009| A aplicação deve mostrar uma página sobre o grupo responsável pela realização do projeto | ALTA | Carlos | menu_sobre.html
 
 ## Descrição das estruturas:
 
-## Notícia
+## Mensagem
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
-
+| Id             | Numero (Inteiro)  | Identificador único da mensagem           | 1                                              
+| Nome           | Texto             | Nome da pessoa que enviou a mensagem                        | Carlos                                   
+| Sobrenome | Texto             | Sobrenome da pessoa que enviou a mensagem                        | Morais                            
+| E-mail  | Texto  | E-mail da pessoa que enviou a mensagem  | carlos.morais@email.com                                      
+| Mensagem | Texto | Conteúdo da mensagem | Amei o site!
+| Destinatário | Número (inteiro) | Código do Destinatário (0 para Desenvolvedor e 1 para Especialista) | 0
