@@ -1,0 +1,17 @@
+.foto {
+  width: 60%;
+}
+
+.links {
+  display: flex;
+}
+
+@media only screen and (max-width: 750px){
+  .plantas--foto {
+    flex-direction: column;
+  }
+
+  .foto {
+    width: 40%;
+  }
+}
