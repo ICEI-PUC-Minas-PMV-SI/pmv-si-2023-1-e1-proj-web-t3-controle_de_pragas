@@ -34,7 +34,7 @@ Necessidade: Claudia tem uma pequena horta na sua varanda e tem medo de que algu
 
 
 
-## Requesitos funcionais
+## Requisitos funcionais
 |ID       | Descrição do Requisito  | Prioridade |
 |---------|-------------------------|------------|
 |RF-001| A aplicação deve mostrar a página principal sem cadastro prévio do usuário. | ALTA |
