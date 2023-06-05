@@ -84,6 +84,7 @@
   justify-content: center;
   width: 30%;
   height: 50vh;
+  gap: 20px;
 }
 
 .foto {
