@@ -2,10 +2,4 @@
 
 ## Instalação do Site
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
-
-## Histórico de versões
-
-### [0.1.0] - DD/MM/AAAA
-#### Adicionado
-- Adicionado ...
+O site está sendo hospedado nos servidores da Vercel e pode ser acessado através do link https://plantcare-vercel.vercel.app/
