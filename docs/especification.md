@@ -10,7 +10,7 @@ Trabalho: Pequeno Fazendeiro
 <br>
 Estado civil: Casado
 <br>
-Necessidade: Murilo está com um problema de pragas na sua plantação de laranjas e precisa mitigar esse problema. Ele não possui expertise necessária nesse assunto e não possui dinheiro para contratar um profissional especializado.
+Necessidade: Murilo está com um problema de pragas na sua plantação de café e precisa mitigar esse problema. Ele não possui expertise necessária nesse assunto e não possui dinheiro para contratar um profissional especializado.
 
 Nome: Telma de Jesus Tolentino
 <br>
@@ -32,6 +32,15 @@ Estado Civil: Solteira
 <br>
 Necessidade: Claudia tem uma pequena horta na sua varanda e tem medo de que alguns insetos se interessem e prejudiquem sua plantação. Ela não tem conhecimento algum sobre controle de pragas e possui uma plantação muito pequena para contratar alguém especializado.
 
+## Histórias de Usuários
+
+Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`   |PARA ... `MOTIVO/VALOR`                                     |
+|--------------------|--------------------------------------|------------------------------------------------------------|
+|Murilo              | Acessar informações sobre as pragas que atacam plantação de café | Exterminar as pragas que estão atacando minha plantação             |
+|Telma              | Acessar informações sobre diversas pragas de forma rápida | Concluir minha pesquisa             |
+|Claudia              | Verificar de forma simples os insetos que prejudicam pequenas hortas | Saber se preciso ou não comprar os produtos necessários para prevenir um ataque            |
 
 
 ## Requisitos funcionais
@@ -71,7 +80,3 @@ Necessidade: Claudia tem uma pequena horta na sua varanda e tem medo de que algu
 |06| O projeto deve ser finalizado até o dia 12 de Julho.|
 |07| A aplicação deve estar disponível vinte e quatro horas por dia. Tratando como exceção pausas para manutenção e mudanças na aplicação.|  
 |08| Nenhum módulo Back-end e nenhum banco de dados pode ser utilizado no projeto.|   
-
-## Histórias de Usuários
-
-EU, COMO dono de uma plantação específica, sendo grande ou pequena, QUERO uma tela para visualizar suas possíveis pragas PARA QUE eu possa prevenir ou minimizar esse problema e crescer minha plantação de forma saudável.
