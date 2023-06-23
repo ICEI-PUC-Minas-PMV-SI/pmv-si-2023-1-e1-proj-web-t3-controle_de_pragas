@@ -35,7 +35,7 @@
   <main>
     <div class="menu">
       <h1 class="t-pag menu--titulo">Fale com os desenvolvedores</h1>
-      <div class="form">
+      <form action="https://formsubmit.co/desenvolvedores.plantcare@gmail.com" method="POST" class="form">
         <div class="form--col1">
           <div class="col1--wrapper">
             <label for="email" class="t-rot col1--label">E-mail</label>
@@ -43,21 +43,25 @@
           </div>
           <div class="col1--wrapper">
             <label for="pnome" class="t-rot col1--label">Nome</label>
-            <input type="text" id="pnome" name="pnome" class="col1--input">
+            <input type="text" id="pnome" name="Nome" class="col1--input">
           </div>
           <div class="col1--wrapper">
             <label for="snome" class="t-rot col1--label">Sobrenome</label>
-            <input type="text" id="snome" name="snome" class="col1--input">
+            <input type="text" id="snome" name="Sobrenome" class="col1--input">
           </div>
         </div>
         <div class="form--col2">
           <div class="col1--wrapper">
             <label for="mensagem" class="t-rot col1--label">Mensagem</label>
-            <textarea rows="6" cols="50" id="mensagem" name="mensagem" class="col2--input">Envie sua mensagem aqui</textarea>
+            <textarea rows="6" cols="50" id="mensagem" name="Mensagem" class="col2--input" placeholder="Escreva sua Mensagem..."></textarea>
           </div>
-          <input type="submit" value="Enviar Mensagem" class="form--submit btn btn--primary t-btn">
+          <button type="submit" class="form--submit btn btn--primary t-btn">Enviar Mensagem</button>
         </div>
-      </div>
+        <input type="hidden" name="_next" value="https://www.google.com/"> <!--ALTERAR APÓS O DEPLOY-->
+        <input type="hidden" name="_subject" value="PlantCare — Nova dúvida!">
+        <input type="hidden" name="_autoresponse" value="PlantCare — Sua dúvida foi enviada!">
+        <input type="hidden" name="_template" value="table">
+      </form>
     </div>
   </main>
 
