@@ -13,6 +13,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
     <title>PlantCare - Fale com os Devs 👨‍💻</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('form').submit(function(event) {
+                event.preventDefault(); 
+
+                
+                var nome = $('#pnome').val();
+                var email = $('#snome').val();
+                var idade = $('#email').val();
+
+                
+                var formData = {
+                    "pnome": pnome,
+                    "snome": snome,
+                    "idade": email
+                };
+
+                console.log(formData);
+                
+                $('form')[0].reset();
+            });
+        });
+    </script>
+
   </head>
 <body>
   <nav class="nav">
@@ -35,6 +61,7 @@
   <main>
     <div class="menu">
       <h1 class="t-pag menu--titulo">Fale com os desenvolvedores</h1>
+
       <form action="https://formsubmit.co/desenvolvedores.plantcare@gmail.com" method="POST" class="form">
         <div class="form--col1">
           <div class="col1--wrapper">
@@ -62,6 +89,7 @@
         <input type="hidden" name="_autoresponse" value="PlantCare — Sua dúvida foi enviada!">
         <input type="hidden" name="_template" value="table">
       </form>
+      
     </div>
   </main>
 
