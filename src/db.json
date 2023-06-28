@@ -1,0 +1,12 @@
+{
+  "mensagens": [
+    {
+      "id": 1,
+      "nome": "Carlos",
+      "sobrenome": "Morais",
+      "email": "carlos.morais@email.com",
+      "mensagem": "Amei o site!",
+      "destinatario": 0
+    }
+  ]
+}
