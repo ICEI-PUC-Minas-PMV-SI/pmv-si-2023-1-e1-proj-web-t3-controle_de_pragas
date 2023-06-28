@@ -32,5 +32,5 @@ function menuRelatorioInner()
         html=html+"</tr>";
     }
     );
-    document.getElementById("corpoTabela").innerHTML=html; //Busca o elemento do corpo da tabela e altera o conteúdo para o trecho de HTML gerado no laço (repetição) acima
+    document.getElementById("corpoTabela").innerHTML=html; // Local Storage iniciado e abortado. Optação por json server.
 }
