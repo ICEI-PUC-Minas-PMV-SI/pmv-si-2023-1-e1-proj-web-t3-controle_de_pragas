@@ -69,6 +69,57 @@
         <input type="hidden" name="destinatario" value=0>
         
       </form>
+
+      <script>
+        const form = document.getElementById('formulario');
+  
+        form.addEventListener('submit', function(event) 
+        
+        {
+  
+        event.preventDefault();
+  
+        const nome = document.getElementById('email').value;
+        const email = document.getElementById('pnome').value;
+        const telefone = document.getElementById('snome').value;
+  
+        const dadosFormulario = {
+        email: email,
+        pnome: pnome,
+        snome: snome
+        };
+  
+        const jsonString = JSON.stringify(dadosFormulario);
+  
+        fetch('http://127.0.0.1:5500/src/pages/duvida/duvida_especs.html', 
+        {
+        method: 'POST',
+        headers: 
+  
+        {
+        'Content-Type': 'src/pages/db.json'
+        }, body: jsonString
+  
+        })
+  
+      .then(response => 
+  
+      {
+      if (response.ok) {
+        console.log('Dados do formulário armazenados com sucesso!');
+      } else {
+        console.error('Erro ao armazenar os dados do formulário.');
+      }
+      })
+  
+      .catch(error => 
+  
+      {
+      console.error('Erro ao enviar os dados do formulário para o servidor:', error);
+      });
+  });
+        </script>
+
       
     </div>
   </main>
