@@ -92,13 +92,13 @@
 
       const jsonString = JSON.stringify(dadosFormulario);
 
-      fetch('https://plantcare-vercel.vercel.app/db.json', 
+      fetch('http://127.0.0.1:5500/src/pages/duvida/duvida_especs.html', 
       {
       method: 'POST',
       headers: 
 
       {
-      'Content-Type': 'application/json'
+      'Content-Type': 'src/pages/db.json'
       }, body: jsonString
 
       })
@@ -114,7 +114,7 @@
     })
 
     .catch(error => 
-    
+
     {
     console.error('Erro ao enviar os dados do formulário para o servidor:', error);
     });
