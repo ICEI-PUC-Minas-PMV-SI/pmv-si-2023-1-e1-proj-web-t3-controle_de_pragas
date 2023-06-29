@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+    
     <title>PlantCare - Fale com os Devs 👨‍💻</title>
 
     <script src="https://smtpjs.com/v3/smtp.js"></script>
@@ -35,9 +37,11 @@
   </nav>
 
   <main>
-    <div class="menu">
+    <div class="menu" id="formulario">
       <h1 class="t-pag menu--titulo">Fale com os desenvolvedores</h1>
       <form action="#" class="form">
+
+      <form action="https://formsubmit.co/desenvolvedores.plantcare@gmail.com" method="POST" class="form">
         <div class="form--col1">
           <div class="col1--wrapper">
             <label for="email" class="t-rot col1--label">E-mail</label>
@@ -60,7 +64,59 @@
           <button type="submit" class="form--submit btn btn--primary t-btn">Enviar Mensagem</button>
         </div>
         <input type="hidden" name="destinatario" id="destinatario" value=0>
+
+        <input type="hidden" name="_next" value="https://plantcare-vercel.vercel.app/pages/duvida/duvida_sucesso.html">
+        <input type="hidden" name="_subject" value="PlantCare — Nova dúvida!">
+        <input type="hidden" name="_autoresponse" value="PlantCare — Sua dúvida foi enviada!">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="destinatario" value=0>
+        
       </form>
+
+      <script>
+        const form = document.getElementById('formulario');
+  
+        form.addEventListener('submit', function(event) 
+        
+        {
+  
+        event.preventDefault();
+  
+        const nome = document.getElementById('email').value;
+        const email = document.getElementById('pnome').value;
+        const telefone = document.getElementById('snome').value;
+  
+        const dadosFormulario = {
+        email: email,
+        pnome: pnome,
+        snome: snome
+        };
+  
+        const jsonString = JSON.stringify(dadosFormulario);
+  
+        const jsonData = JSON.stringify(dadosFormulario);
+
+        fetch('src/pages/db.json', {
+        method: 'POST',
+        headers: {
+        'Content-Type': 'application/json'
+                },
+        body: jsonData
+        })
+        .then(response => {
+        if (response.ok) {
+        console.log('Dados do formulário armazenados com sucesso!');
+        } else {
+        console.error('Erro ao armazenar os dados do formulário.');
+        }
+        })
+        .catch(error => {
+        console.error('Erro ao enviar os dados do formulário para o servidor:', error);
+        });
+
+        </script>
+
+      
     </div>
   </main>
 
@@ -143,5 +199,7 @@
     })
     
   </script>
+  <div class="menu--bg">
+  
 </body>
-</html>
+        </html>
