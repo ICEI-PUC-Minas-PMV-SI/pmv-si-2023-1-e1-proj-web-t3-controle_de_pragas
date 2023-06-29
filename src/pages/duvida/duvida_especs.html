@@ -133,8 +133,7 @@
         message => alert(message)
       );
 
-      // https://plantcare-vercel.vercel.app/db.json
-      const post2 = await fetch('http://localhost:3000/mensagens', {
+      const post2 = await fetch('https://pmv-si-2023-1-e1-proj-web-t3-controle-de-pragas.vercel.app/mensagens', {
         method: 'POST',
         headers: {
           'Content-type': 'application/json'
