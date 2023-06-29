@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
-    <title>PlantCare - Fale com um especialista 🧑‍🔬</title>
+    <title>PlantCare - Dúvidas Enviadas</title>
   </head>
 <body>
   <nav class="nav">
@@ -35,18 +35,22 @@
   <main>
     <div class="menu">
       <h1 class="t-pag menu--titulo">Dúvidas Enviadas</h1>
-      <div class="emailbox--filters">
-        <input type="email" id="email" placeholder="Insira seu e-mail">
+      <form id="filters" class="emailbox--filters">
+        <input type="email" id="email" placeholder=" Insira seu e-mail" class="col1--input">
         <div class="emailbox--filters--dest">
-          <p>Destinatário</p>
-          <input type="radio" id="especs" name="dest__filter" value="1">
-          <label for="especs">Especialistas</label>
-          <input type="radio" id="devs" name="dest__filter" value="0">
-          <label for="devs">Desenvolvedores</label>
-          <input type="radio" id="all" name="dest__filter" value="2">
-          <label for="all">Todos</label>
+          <label for="dest" class="t-bold">Destinatário</label>
+          <select name="dest" id="dest" class="col1--input">
+            <option value="all">Todos</option>
+            <option value="0">Desenvolvedores</option>
+            <option value="1">Especialistas</option>
+          </select>
         </div>
+        <button type="submit" class="btn btn--outline t-btn filter--btn">Filtrar</button>
+      </form>
+      <div class="sent--wrapper" id="emailbox">
+
       </div>
+    </div>
   </main>
 
   <footer class="r-navbar">
@@ -73,5 +77,56 @@
     </div>
   </footer>
   <div class="menu--bg">
+
+  <script>
+    const filters = document.getElementById('filters');
+
+    const email = document.getElementById('email');
+    const dest = document.getElementById('dest');
+    const emailbox = document.getElementById('emailbox');
+
+    filters.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      emailbox.innerHTML = ''
+
+      const emailData = await fetch(`https://pmv-si-2023-1-e1-proj-web-t3-controle-de-pragas.vercel.app/mensagens?email=${email.value}${dest.value === "all" ? "" : "&destinatario=" + dest.value}`, {
+        method: 'GET',
+        headers: {
+            'Accept': 'application/json',
+        },
+      })
+      .then(response => response.json())
+
+      emailData.map((item) => {
+        const sentDiv = document.createElement('div')
+        sentDiv.classList.add('sent')
+        sentDiv.innerHTML = `
+          <h2>${item.nome} ${item.sobrenome}</h2>
+          <p class="sent--dest">${item.email}</p>
+          <p>Para: <span class="t-bold">${item.destinatario == "0" ? "Desenvolvedores" : "Especialistas"}</span></p>
+          <br>
+          <p>
+            ${item.mensagem}
+          </p>
+        `
+
+        emailbox.appendChild(sentDiv)
+      })
+
+      if (emailData.length === 0) {
+          const sentDiv = document.createElement('div')
+          sentDiv.innerHTML = `
+          <h2>Ops!</h2>
+          <p>Parece que nenhum e-mail foi enviado com os dados que você nos deu.</p>
+          <a href="https://plantcare-vercel.vercel.app/pages/menu_duvida.html" class="btn btn--primary t-btn">
+            Enviar uma nova dúvida
+          </a>
+          `
+
+          emailbox.appendChild(sentDiv)
+        }
+    })
+  </script>
 </body>
 </html>
