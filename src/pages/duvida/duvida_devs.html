@@ -16,6 +16,7 @@
     
     <title>PlantCare - Fale com os Devs 👨‍💻</title>
 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </head>
 <body>
   <nav class="nav">
@@ -38,6 +39,7 @@
   <main>
     <div class="menu" id="formulario">
       <h1 class="t-pag menu--titulo">Fale com os desenvolvedores</h1>
+      <form action="#" class="form">
 
       <form action="https://formsubmit.co/desenvolvedores.plantcare@gmail.com" method="POST" class="form">
         <div class="form--col1">
@@ -61,6 +63,7 @@
           </div>
           <button type="submit" class="form--submit btn btn--primary t-btn">Enviar Mensagem</button>
         </div>
+        <input type="hidden" name="destinatario" id="destinatario" value=0>
 
         <input type="hidden" name="_next" value="https://plantcare-vercel.vercel.app/pages/duvida/duvida_sucesso.html">
         <input type="hidden" name="_subject" value="PlantCare — Nova dúvida!">
@@ -140,6 +143,62 @@
       <a href="./../menu_duvida.html" class="btn btn--link footer--btn t-btn">Envie uma Dúvida</a>
     </div>
   </footer>
+  <script>
+    // Guarda as variávies
+    const pNome = document.getElementById('pnome')
+    const sNome = document.getElementById('snome')
+    const email = document.getElementById('email')
+    const mensagem = document.getElementById('mensagem')
+    const destinatario = document.getElementById('destinatario')
+    const form = document.getElementsByClassName('form')[0]
+
+    // Adiciona o event listener
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // Escreve o corpo do email
+      let ebody = `
+      <h1>Nova dúvida - PlantCare 🌱❤</h1>
+      <h2>Nova dúvida de ${pNome.value} ${sNome.value}</h2>
+      <br>
+      <br>
+      <h3>Mensagem:</h3>
+      <p>${mensagem.value}</p>
+      <br>
+      <p>Email do remetente: ${email.value}</p>
+      `
+
+      // Envia o email
+      const post1 = await Email.send({
+      SecureToken : "9944f427-0dd5-4920-8b49-54ce7a0c6703",
+      To : ['desenvolvedores.plantcare@gmail.com', email.value],
+      From : "desenvolvedores.plantcare@gmail.com",
+      Subject : "Nova Mensagem de " + email.value,
+      Body : ebody
+      }).then(
+        message => alert(message)
+      );
+
+      const post2 = await fetch('https://plantcare-vercel.vercel.app/db.json', {
+        method: 'POST',
+        headers: {
+          'Content-type': 'application/json'
+        },
+        body: JSON.stringify({
+          email: email.value,
+          nome: pNome.value,
+          sobrenome: sNome.value,
+          mensagem: mensagem.value,
+          destinatario: destinatario.value
+        })
+      })
+        .then(res => res.json())
+        .then(data => console.log(data));
+
+      Promise.all([post2, post1])
+    })
+    
+  </script>
   <div class="menu--bg">
   
 </body>
