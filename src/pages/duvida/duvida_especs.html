@@ -70,6 +70,56 @@
         <input type="hidden" name="destinatario" value=1>
         
       </form>
+
+      <script>
+      const form = document.getElementById('formulario');
+
+      form.addEventListener('submit', function(event) 
+      
+      {
+
+      event.preventDefault();
+
+      const nome = document.getElementById('email').value;
+      const email = document.getElementById('pnome').value;
+      const telefone = document.getElementById('snome').value;
+
+      const dadosFormulario = {
+      email: email,
+      pnome: pnome,
+      snome: snome
+      };
+
+      const jsonString = JSON.stringify(dadosFormulario);
+
+      fetch('https://plantcare-vercel.vercel.app/db.json', 
+      {
+      method: 'POST',
+      headers: 
+
+      {
+      'Content-Type': 'application/json'
+      }, body: jsonString
+
+      })
+
+    .then(response => 
+
+    {
+    if (response.ok) {
+      console.log('Dados do formulário armazenados com sucesso!');
+    } else {
+      console.error('Erro ao armazenar os dados do formulário.');
+    }
+    })
+
+    .catch(error => 
+    
+    {
+    console.error('Erro ao enviar os dados do formulário para o servidor:', error);
+    });
+});
+      </script>
       
   </main>
 
