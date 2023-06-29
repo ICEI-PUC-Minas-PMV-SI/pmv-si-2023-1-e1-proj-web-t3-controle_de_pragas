@@ -35,7 +35,18 @@
   <main>
     <div class="menu">
       <h1 class="t-pag menu--titulo">Dúvidas Enviadas</h1>
-      
+      <div class="emailbox--filters">
+        <input type="email" id="email" placeholder="Insira seu e-mail">
+        <div class="emailbox--filters--dest">
+          <p>Destinatário</p>
+          <input type="radio" id="especs" name="dest__filter" value="1">
+          <label for="especs">Especialistas</label>
+          <input type="radio" id="devs" name="dest__filter" value="0">
+          <label for="devs">Desenvolvedores</label>
+          <input type="radio" id="all" name="dest__filter" value="2">
+          <label for="all">Todos</label>
+        </div>
+      </div>
   </main>
 
   <footer class="r-navbar">
