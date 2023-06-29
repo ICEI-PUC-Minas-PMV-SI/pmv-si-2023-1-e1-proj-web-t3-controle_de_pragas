@@ -91,33 +91,26 @@
   
         const jsonString = JSON.stringify(dadosFormulario);
   
-        fetch('http://127.0.0.1:5500/src/pages/duvida/duvida_especs.html', 
-        {
-        method: 'POST',
-        headers: 
-  
-        {
-        'Content-Type': 'src/pages/db.json'
-        }, body: jsonString
-  
-        })
-  
-      .then(response => 
-  
-      {
-      if (response.ok) {
-        console.log('Dados do formulário armazenados com sucesso!');
-      } else {
-        console.error('Erro ao armazenar os dados do formulário.');
-      }
-      })
-  
-      .catch(error => 
-  
-      {
-      console.error('Erro ao enviar os dados do formulário para o servidor:', error);
-      });
-  });
+        const jsonData = JSON.stringify(dadosFormulario);
+
+fetch('http://127.0.0.1:5500/src/pages/db.json', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: jsonData
+})
+.then(response => {
+  if (response.ok) {
+    console.log('Dados do formulário armazenados com sucesso!');
+  } else {
+    console.error('Erro ao armazenar os dados do formulário.');
+  }
+})
+.catch(error => {
+  console.error('Erro ao enviar os dados do formulário para o servidor:', error);
+});
+
         </script>
 
       
