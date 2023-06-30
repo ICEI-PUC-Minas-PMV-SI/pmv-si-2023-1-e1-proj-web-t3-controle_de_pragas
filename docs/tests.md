@@ -32,6 +32,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Acesso ao site concluído listando as opções que serão detalhasdas em outros CT's.
 **Dados de entrada** | Retorno do servidor ao entrarmos no link, mostrando que a aplicação está operacional.
 **Resultado obtido** | Sucesso.
+**Link do vídeo do teste realizado:** | x.
 
 **Caso de Teste** | **CT02 - Consultando Plantações**
  :--------------: | ------------
@@ -40,6 +41,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+**Link do vídeo do teste realizado:** | x.
 
 **Caso de Teste** | **CT02.1 - Detalhando "Café"**
  :--------------: | ------------
@@ -48,6 +50,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+**Link do vídeo do teste realizado:** | x.
 
 **Caso de Teste** | **CT02.1.1 - Detalhando "Broca-do-café"**
  :--------------: | ------------
@@ -56,6 +59,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+**Link do vídeo do teste realizado:** | x.
 
 **Caso de Teste** | **CT02.1.2 - Detalhando "Bicho-mineiro"**
  :--------------: | ------------
@@ -64,6 +68,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+**Link do vídeo do teste realizado:** | x.
 
 **Caso de Teste** | **CT02.1.3 - Detalhando "Ácaro branco"**
  :--------------: | ------------
@@ -72,6 +77,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+**Link do vídeo do teste realizado:** | x.
 
 **Caso de Teste** | **CT02.2 - Detalhando "Trigo"**
  :--------------: | ------------
@@ -80,6 +86,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+**Link do vídeo do teste realizado:** | x.
 
 **Caso de Teste** | **CT02.2.1 - Detalhando "Coró-das-pastagens"**
  :--------------: | ------------
@@ -88,6 +95,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+**Link do vídeo do teste realizado:** | x.
 
 **Caso de Teste** | **CT02.2.3 - Detalhando "Lagata-do-trigo"**
  :--------------: | ------------
@@ -96,6 +104,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+**Link do vídeo do teste realizado:** | x.
 
 **Caso de Teste** | **CT02.2.3 - Detalhando "Percevejo"**
  :--------------: | ------------
@@ -104,6 +113,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+**Link do vídeo do teste realizado:** | x.
 
 **Caso de Teste** | **CT03 - Consultando Pragas**
  :--------------: | ------------
@@ -112,6 +122,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+**Link do vídeo do teste realizado:** | x.
 
 **Caso de Teste** | **CT04 - Envie uma dúvida!**
  :--------------: | ------------
@@ -120,6 +131,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+**Link do vídeo do teste realizado:** | x.
 
 **Caso de Teste** | **CT04.1 - Envie uma dúvida aos desenvolvedores**
  :--------------: | ------------
@@ -128,6 +140,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+**Link do vídeo do teste realizado:** | x.
 
 **Caso de Teste** | **CT04.2 - Envie uma dúvida aos especialistas**
  :--------------: | ------------
@@ -136,6 +149,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+**Link do vídeo do teste realizado:** | x.
 
 **Caso de Teste** | **CT04.3 - Dúvidas enviadas**
  :--------------: | ------------
@@ -144,6 +158,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+**Link do vídeo do teste realizado:** | x.
 
 **Caso de Teste** | **CT05 - Aprendendo "sobre nós"**
  :--------------: | ------------
@@ -152,20 +167,11 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+**Link do vídeo do teste realizado:** | x.
 
 ## Registro dos Testes de Software
 
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
-
-|*Caso de Teste*                                 |*TC-01 - Criar uma conta*                                         |
-|---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
-
-|*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
-|---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+**Links anexados ao final de cada caso para melhor praticidade!**
 
 
 ## Avaliação dos Testes de Software
