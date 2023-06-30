@@ -25,12 +25,13 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT01 - Acesso ao PlantCare**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa nome, sobrenome, email, senha, Estado e Cidade e clica no botão "Continuar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro.
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Procedimento**  | 1) O usuário deve abrir o link plantcare-vercel.vercel.app/ para acessar a aplicação.<br>
+2) O usuário não necessita de um cadastro, sendo assim, todas as funcionalidades estarão disponíveia para quem acessar.
+**Requisitos associados** | RF-001 e RF-002
+**Resultado esperado** | Acesso ao site concluído listando as opções que serão detalhasdas em outros CT's.
+**Dados de entrada** | Retorno do servidor ao entrarmos no link, mostrando que a aplicação está operacional.
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT02 - Criar conta parte 2**
