@@ -27,8 +27,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT01 - Acesso ao PlantCare**
  :--------------: | ------------
-**Procedimento**  | 1) O usuário deve abrir o link plantcare-vercel.vercel.app/ para acessar a aplicação.<br>
-2) O usuário não necessita de um cadastro, sendo assim, todas as funcionalidades estarão disponíveia para quem acessar.
+**Procedimento**  | 1) O usuário deve abrir o link plantcare-vercel.vercel.app/ para acessar a aplicação.<br>2) O usuário não necessita de um cadastro, sendo assim, todas as funcionalidades estarão disponíveia para quem acessar.
 **Requisitos associados** | RF-001 e RF-002
 **Resultado esperado** | Acesso ao site concluído listando as opções que serão detalhasdas em outros CT's.
 **Dados de entrada** | Retorno do servidor ao entrarmos no link, mostrando que a aplicação está operacional.
