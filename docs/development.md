@@ -7,9 +7,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |ID       | Descrição do Requisito  | Prioridade | Responsável | Artefato Criado | 
 |---------|-------------------------|------------|-------------|-----------------|
 |RF-001| A aplicação deve mostrar a página principal sem cadastro prévio do usuário. | ALTA | Carlos | index.html
-|RF-002| A aplicação deve mostrar um menu na página principal com as plantações para que o usuário escolha qual detalhar. | ALTA | Carlos | menu_plantas.html
-|RF-003| A aplicação deve detalhar a plantação de café, mostrando uma foto da planta, seu nome científico e as cinco pragas mais famosas por atacá-la. | ALTA | Lucas | plantas-café.html
-|RF-004| A aplicação deve detalhar a plantação de trigo, mostrando uma foto da planta, seu nome científico e as cinco pragas mais famosas por atacá-la. | ALTA | Lucas | plantas-trigo.html
+|RF-002| A aplicação deve mostrar um menu na página principal com as plantações e pragas para que o usuário escolha qual detalhar. | ALTA | Carlos | menu_plantas.html<br>menu_pragas.html
+|RF-003| A aplicação deve detalhar a plantação de café, mostrando uma foto da planta, seu nome científico e as três pragas mais famosas por atacá-la. | ALTA | Lucas | plantas-café.html
+|RF-004| A aplicação deve detalhar a plantação de trigo, mostrando uma foto da planta, seu nome científico e as três pragas mais famosas por atacá-la. | ALTA | Lucas | plantas-trigo.html
 |RF-005| A aplicação deve mostrar uma nova página caso o usuário escolha detalhar uma praga. Essa página deve conter como ela ataca as plantas, como prever sua instalação nas plantações e como exterminá-las. | ALTA | Carlos e Lucas | menu_pragas.html
 |RF-006| A aplicação deve prover um formulário para que o usuário envie um e-mail ao especialista. | ALTA | Carlos | duvida_especs.html
 |RF-008| A aplicação deve prover um formulário para que o usuário envie um e-mail aos desenvolvedores da aplicação | ALTA | Carlos | duvida_devs.html
