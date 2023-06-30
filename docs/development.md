@@ -12,8 +12,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-004| A aplicação deve detalhar a plantação de trigo, mostrando uma foto da planta, seu nome científico e as três pragas mais famosas por atacá-la. | ALTA | Lucas | plantas-trigo.html
 |RF-005| A aplicação deve mostrar uma nova página caso o usuário escolha detalhar uma praga. Essa página deve conter como ela ataca as plantas, como prever sua instalação nas plantações e como exterminá-las. | ALTA | Carlos e Lucas | menu_pragas.html
 |RF-006| A aplicação deve prover um formulário para que o usuário envie um e-mail ao especialista. | ALTA | Carlos | duvida_especs.html
-|RF-008| A aplicação deve prover um formulário para que o usuário envie um e-mail aos desenvolvedores da aplicação | ALTA | Carlos | duvida_devs.html
-|RF-009| A aplicação deve mostrar uma página sobre o grupo responsável pela realização do projeto | ALTA | Carlos | menu_sobre.html
+|RF-008| A aplicação deve prover um formulário para que o usuário envie um e-mail aos desenvolvedores da aplicação. | ALTA | Carlos | duvida_devs.html
+|RF-009| A aplicação deve prover um campo de filtragem para que o usuário consulte as dúvidas enviadas em seu uso. | ALTA | Carlos | duvida_devs.html
+|RF-010| A aplicação deve mostrar uma página sobre o grupo responsável pela realização do projeto | ALTA | Carlos | menu_sobre.html
 
 ## Descrição das estruturas:
 
