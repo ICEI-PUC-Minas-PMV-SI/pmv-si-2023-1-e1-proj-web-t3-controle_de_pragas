@@ -17,173 +17,55 @@ A documentação dos testes é dividida nas seguintes seções:
  - [Avaliação dos Testes de Usabilidade](#avaliação-dos-testes-de-usabilidade)
 
 # Teste de Software
-
-Nesta seção o grupo deverá documentar os testes de software que verificam a correta implementação dos requisitos funcionais e não funcionais do software.
-
 ## Plano de Testes de Software
 
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
-
-
-**Caso de Teste** | **CT01 - Acesso ao PlantCare**
+**Caso de Teste** | **CT01 - Verificar Praga (Por menu de Plantas)**
  :--------------: | ------------
-**Procedimento**  | 1) O usuário deve abrir o link plantcare-vercel.vercel.app/ para acessar a aplicação.<br>2) O usuário não necessita de um cadastro, sendo assim, todas as funcionalidades estarão disponíveia para quem acessar.
-**Requisitos associados** | RF-001 e RF-002
-**Resultado esperado** | Acesso ao site concluído listando as opções que serão detalhasdas em outros CT's.
-**Dados de entrada** | Retorno do servidor ao entrarmos no link, mostrando que a aplicação está operacional.
+**Procedimento**  | 1) Usuário abre o menu principal e seleciona o menu Plantas, selecionando uma planta<br>2) A aplicação demonstra uma breve descrição, uma foto da planta e as pragas mais frequentes que atacam ela.<br>3) Se o usuário clickar na foto da praga, a aplicação leva ele pra página que detalha a praga escolhida. Essa página mostra uma breve descrição, uma foto e a plantação favorita dessa praga.
+**Requisitos associados** | RF-001 / RF-002 / RF-003 / RF-004 / RF-005 / RF-006
+**Resultado esperado** | Vizualização das páginas escolhidas
+**Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
-**Link do vídeo do teste realizado:** | x.
 
-**Caso de Teste** | **CT02 - Consultando Plantações**
+**Caso de Teste** | **CT02 - Enviar e-mail**
  :--------------: | ------------
-**Procedimento**  | 1) O usuário deve selecionar a opção "Plantações", disponível no navbar, footer, e, principalmente com mais envidência, no body/meio da página.<br>2) A aplicação retorna as plantações disponíveis para serem detalhadas. 
-**Requisitos associados** | RF-001
+**Procedimento**  | 1) Usuário escolhe para quem ele deseja enviar uma mensagem pelo menu "Envie uma dúvida"<br>2) Usuário informa nome, sobrenome, e-mail e mensagem via um formulário na página de envio<br> 3) A aplicação armazena os dados e envia um e-mail para o destinatário escolhido e para o usuário.
+**Requisitos associados** | RF-007 / RF-008
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
-**Link do vídeo do teste realizado:** | x.
 
-**Caso de Teste** | **CT02.1 - Detalhando "Café"**
+**Caso de Teste** | **CT03 - Acessar Página Sobre Nós**
  :--------------: | ------------
-**Procedimento**  | 1) O usuário, após entrar na aba de plantações, deve selecionar a opão em evidência nomeada "Café".
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Procedimento**  | 1) Usuário acessa a Página Sobre Nós pelo menu principal<br>2) A aplicação provê um breve texto sobre os desenvolvedores e uma foto de cada desenvolvedor.
+**Requisitos associados** | RF-009
+**Resultado esperado** | Vizualização da página
+**Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
-**Link do vídeo do teste realizado:** | x.
-
-**Caso de Teste** | **CT02.1.1 - Detalhando "Broca-do-café"**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-**Link do vídeo do teste realizado:** | x.
-
-**Caso de Teste** | **CT02.1.2 - Detalhando "Bicho-mineiro"**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-**Link do vídeo do teste realizado:** | x.
-
-**Caso de Teste** | **CT02.1.3 - Detalhando "Ácaro branco"**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-**Link do vídeo do teste realizado:** | x.
-
-**Caso de Teste** | **CT02.2 - Detalhando "Trigo"**
- :--------------: | ------------
-**Procedimento**  | 1) O usuário, após entrar na aba de plantações, deve selecionar a opão em evidência nomeada "Café".
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-**Link do vídeo do teste realizado:** | x.
-
-**Caso de Teste** | **CT02.2.1 - Detalhando "Coró-das-pastagens"**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-**Link do vídeo do teste realizado:** | x.
-
-**Caso de Teste** | **CT02.2.3 - Detalhando "Lagata-do-trigo"**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-**Link do vídeo do teste realizado:** | x.
-
-**Caso de Teste** | **CT02.2.3 - Detalhando "Percevejo"**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-**Link do vídeo do teste realizado:** | x.
-
-**Caso de Teste** | **CT03 - Consultando Pragas**
- :--------------: | ------------
-**Procedimento**  | 1) O usuário deve selecionar a opção "Pragas", disponível no navbar, footer, e, principalmente com mais envidência, no corpo/meio da página.<br>2) A aplicação retorna as pragas disponíveis para serem detalhadas. 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-**Link do vídeo do teste realizado:** | x.
-
-**Caso de Teste** | **CT04 - Envie uma dúvida!**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-**Link do vídeo do teste realizado:** | x.
-
-**Caso de Teste** | **CT04.1 - Envie uma dúvida aos desenvolvedores**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-**Link do vídeo do teste realizado:** | x.
-
-**Caso de Teste** | **CT04.2 - Envie uma dúvida aos especialistas**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-**Link do vídeo do teste realizado:** | x.
-
-**Caso de Teste** | **CT04.3 - Dúvidas enviadas**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-**Link do vídeo do teste realizado:** | x.
-
-**Caso de Teste** | **CT05 - Aprendendo "sobre nós"**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-**Link do vídeo do teste realizado:** | x.
 
 ## Registro dos Testes de Software
 
-**Links anexados ao final de cada caso para melhor praticidade!**
+Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
+
+|*Caso de Teste*                                 |*CT01 - Verificar Praga (Por menu de Plantas)*                       |
+|---|---|
+|Requisito Associado | RF-001 / RF-002 / RF-003 / RF-004 / RF-005 / RF-006|
+|Link do vídeo do teste realizado: | **INSERIR LINK AQUI** | 
+
+|*Caso de Teste*                                 |*CT02 - Enviar e-mail*                        |
+|---|---|
+|Requisito Associado | RF-007 / RF-008|
+|Link do vídeo do teste realizado: | **INSERIR LINK AQUI**  |
+
+|*Caso de Teste*                                 |*CT03 - Acessar Página Sobre Nós*                        |
+|---|---|
+|Requisito Associado | RF-009 |
+|Link do vídeo do teste realizado: | **INSERIR LINK AQUI**  | 
 
 
 ## Avaliação dos Testes de Software
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-
-
-## Testes de unidade automatizados (Opcional)
-
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
-
 
 # Testes de Usabilidade
 
@@ -217,60 +99,63 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 1             | Você é uma pessoa que está com um problema de pragas na sua plantação de café e precisa mitigar esse problema. Encontre a praga mais famosa por atacar o café e veja mais informações sobre ela. |
+| 2             | Você é uma pessoa que está com uma dúvida específica sobre a sua plantação de trigo. Envie uma dúvida à um especialista. |
 
-
+## Tipos de Usuário
+| Usuário | Idade | Profissão | Contato com tecnologia diariamente (1 - 10) | Fez o teste pelo
+|---------|-----------------|----------------------|---|---|
+| 1       | 49 | Professor(a) | 4                    | Computador |
+| 2       | 25 | Gerente de Banco | 7                    | Celular |
+| 3       | 22 | Universitário(a) | 8                    | Computador |
+| 4       | 21 | Técnico(a) de Segurança do Trabalho | 10 | Celular |
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+Cenário 1: Você é uma pessoa que está com um problema de pragas na sua plantação de café e precisa mitigar esse problema. Encontre a praga mais famosa por atacar o café e veja mais informações sobre ela.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1       | SIM             | 5                    | 18 segundos                  |
+| 2       | SIM             | 4                    | 14 segundos                  |
+| 3       | SIM             | 5                    | 12 segundos                  |
+| 4       | SIM             | 4                    | 20 segundos                  |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Média**     | 100%           | 4.5                | 16 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 4 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+    Comentários dos usuários: Gostei do tamanho dos botões, fica mais fácil pros idosos usarem o site. 
+    A função de entrar na página da praga pela página do café não é tão intuitiva, talvez alguém que não tenha tanto contato com tecnologia pode se perder.
 
 
 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 1: Você é uma pessoa que está com uma dúvida específica sobre a sua plantação de trigo. Envie uma dúvida à um especialista.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    | 1 minuto e 3 segundos        |
+| 2       | SIM             | 4                    | 43 segundos                  |
+| 3       | SIM             | 5                    | 30 segundos                  |
+| 4       | SIM             | 5                    | 20 segundos                  |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 4.5                | 39 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 10 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: É tudo bem simples mas organizado. Gostei demais!
+    Levei um pouco de tempo para achar a opção certa no menu principal, mas tirando isso foi bem simples.
 
 
 
 
 ## Avaliação dos Testes de Usabilidade
 
-
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+No geral, os testes de usabilidade foram bem-sucedidos, com taxa de sucesso de 100% em ambos os cenários. Isso evidencia que o site é simples de usar e intuitivo de modo geral. 
 
 Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
+Com relação ao tempo para conclusão de cada tarefa/cenário, não há muita diferença entre o usuário 1 (Contato com tecnologia - 4) e os demais (Contato com tecnologia - 7, 8 e 10). A grande diferença no cenário dois aconteceu por conta da velocidade de digitação e a mensagem de cada usuário. Por exemplo: O usuário 1 escreveu "Olá! Eu tenho uma dúvida!" enquanto o usuário 4 escreveu apenas "Mensagem".
 
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
-
-
-
+Contudo, tendo em vista os comentários vimos que podemos deixar o site mais intuitivo, provavelmente com alguns tooltips e botões mais explicativos.
