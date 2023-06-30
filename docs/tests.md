@@ -50,17 +50,17 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT01 - Verificar Praga (Por menu de Plantas)*                       |
 |---|---|
 |Requisito Associado | RF-001 / RF-002 / RF-003 / RF-004 / RF-005 / RF-006|
-|Link do vídeo do teste realizado: | **INSERIR LINK AQUI** | 
+|Link do vídeo do teste realizado: | **https://drive.google.com/file/d/1rjEFcdeZjCuXpbRVKLgM-4dPoxAhqdPs/view?usp=sharing** | 
 
 |*Caso de Teste*                                 |*CT02 - Enviar e-mail*                        |
 |---|---|
 |Requisito Associado | RF-007 / RF-008|
-|Link do vídeo do teste realizado: | **INSERIR LINK AQUI**  |
+|Link do vídeo do teste realizado: | **https://drive.google.com/file/d/1jdQpMbz8vPcQu0HH3gx9oHRxkzdK0XaZ/view?usp=sharing**  |
 
 |*Caso de Teste*                                 |*CT03 - Acessar Página Sobre Nós*                        |
 |---|---|
 |Requisito Associado | RF-009 |
-|Link do vídeo do teste realizado: | **INSERIR LINK AQUI**  | 
+|Link do vídeo do teste realizado: | **https://drive.google.com/file/d/1yOyucWNy65M8M1tMWDvM6zfcLV6WjAo5/view?usp=sharing**  | 
 
 
 ## Avaliação dos Testes de Software
