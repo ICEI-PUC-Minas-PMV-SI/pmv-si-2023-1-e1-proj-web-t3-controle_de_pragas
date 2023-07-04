@@ -1,28 +1,18 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: PlantCare
 authors:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
+  - family-names: Morais Junior
+    given-names: Carlos Alberto
+  - family-names: De Lacerda Moreira Passos
+    given-names: Lucas
+  - name-suffix: Professora
     affiliation: PUC Minas
-    family-names:
-    given-names:
+    family-names: De Nardim
+    given-names: Luciana
 keywords:
-  -
-  -
+  - Agricultura
+  - Aplicações Web
 repository-code:
 license: CC-BY-4.0
 version: 1.0.0
