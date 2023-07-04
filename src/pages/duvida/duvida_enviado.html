@@ -88,6 +88,8 @@
     filters.addEventListener('submit', async (e) => {
       e.preventDefault();
 
+      let count = 0;
+
       emailbox.innerHTML = ''
 
       const emailData = await fetch(`https://pmv-si-2023-1-e1-proj-web-t3-controle-de-pragas.vercel.app/mensagens?email=${email.value}${dest.value === "all" ? "" : "&destinatario=" + dest.value}`, {
@@ -110,7 +112,7 @@
             ${item.mensagem}
           </p>
         `
-
+        count ++;
         emailbox.appendChild(sentDiv)
       })
 
@@ -125,6 +127,13 @@
           `
 
           emailbox.appendChild(sentDiv)
+        } else {
+          const countDiv = document.createElement('div');
+          countDiv.innerHTML= `
+          <h2>Mensagens enviadas: ${count}</h2>
+          `
+
+          emailbox.appendChild(countDiv)
         }
     })
   </script>
